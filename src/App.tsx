@@ -2,10 +2,10 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    const targetUrl = "https://nanobananas.store/";
+    const targetUrl = "https://xbanana.store/";
 
     // 현재 도메인이 아닌 경우에만 리다이렉트
-    if (window.location.hostname !== "nanobananas.store") {
+    if (window.location.hostname !== "xbanana.store") {
       window.location.replace(targetUrl); // replace 사용 (뒤로가기 방지)
     }
   }, []);
